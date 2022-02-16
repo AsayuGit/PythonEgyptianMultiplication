@@ -1,10 +1,11 @@
 def egyptianMultiplication(a, b):
     acc = 0
-    power = 1
+    bAcc = b
     while a:
-        acc += (a & 1) * power * b
+        if (a & 1)
+            acc += bAcc
         a >>= 1
-        power <<= 1
+        bAcc <<= 1
     return acc
 
 
